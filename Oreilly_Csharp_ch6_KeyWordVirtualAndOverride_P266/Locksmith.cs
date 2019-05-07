@@ -21,7 +21,7 @@ namespace Oreilly_Csharp_ch6_KeyWordVirtualAndOverride_P266
             writtenDoenCombination = combinatoin;
         }
 
-        public void ReturnContents(Jewels safeConstent, Owner owner)
+        virtual public void ReturnContents(Jewels safeConstent, Owner owner)
         {
             owner.ReceviceContents(safeConstent);
         }
