@@ -12,6 +12,7 @@ namespace Oreilly_Csharp_ch6_KeyWordVirtualAndOverride_P266
         {
             safe.PickLock(this);
             Jewels safeContents = safe.Open(writtenDoenCombination);
+            ReturnContents(safeContents, owner);
         }
 
         private string writtenDoenCombination = null;
